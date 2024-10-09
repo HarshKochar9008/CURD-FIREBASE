@@ -23,6 +23,7 @@ This is a simple CRUD (Create, Read, Update, Delete) application built using Rea
 
 - **Frontend**: React (Vite)
 - **Database**: Firebase Firestore
+- **Deployment**: As User preferred
 
 Introduction
 ------------
