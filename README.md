@@ -45,3 +45,12 @@ To run this application, you need to have the following installed on your local 
 
    ```bash
    git clone https://github.com/HarshKochar9008/CURD-FIREBASE
+   
+   npm install
+   npm run dev
+   
+   npm install firebase
+   ```
+   
+   
+ _Readme By Harsh_
