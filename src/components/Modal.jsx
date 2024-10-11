@@ -5,12 +5,12 @@ const Modal = ({ onClose, isOpen, children }) => {
   return createPortal(
     <>
       {isOpen && (
-        <div className=" absolute top-0 grid z-30 h-screen w-screen place-items-center backdrop-blur">
-          <div className="relative m-auto rounded-md z-50 min-h-[200px] min-w-[80%] bg-white p-4">
+        <div className="fixed inset-0 flex w-30 items-center p-3 justify-center z-30 backdrop-blur-sm">
+          <div className="relative rounded-md z-40 w-96 max-w-lg max-h-[80vh] bg-pale p-4 overflow-y-auto">
             <div className="flex justify-end items-center">
               <AiOutlineClose
                 onClick={onClose}
-                className="text-2xl text-gray-500"
+                className="text-2xl cursor-pointer text-gray-500"
               />
             </div>
             {children}
@@ -21,4 +21,5 @@ const Modal = ({ onClose, isOpen, children }) => {
     ,document.getElementById("modal-root")
   );
 };
+
 export default Modal;
