@@ -1,5 +1,5 @@
 import { Formik, Field, Form, ErrorMessage } from "formik";
-import Modal from "./MOdal";
+import Modal from "./Modal";
 import { collection, addDoc, updateDoc, doc } from "firebase/firestore";
 import { db } from "../config/firebase";
 import { toast } from "react-toastify";
